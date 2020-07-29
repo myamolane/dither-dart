@@ -1,11 +1,8 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library dither_dart;
+library dither;
 
 import 'package:image/image.dart';
 
-import 'src/dither_dart_base.dart';
+import 'src/dither_base.dart';
 
 // https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering
 Image floydSteinberg(Image src, { int threshold = 127 }) {

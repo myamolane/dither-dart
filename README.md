@@ -8,10 +8,10 @@ Created from templates made available by Stagehand under a BSD-style
 A simple usage example:
 
 ```dart
-import 'package:dither_dart/dither_dart.dart';
+import 'package:dither/dither.dart';
 
 main() {
-  var awesome = new Awesome();
+  dither(img);
 }
 ```
 

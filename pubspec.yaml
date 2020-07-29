@@ -1,7 +1,9 @@
-name: dither_dart
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
-# homepage: https://www.example.com
+name: dither
+description: Various dither algorithms for image.
+version: 1.0.0
+author: myamolane <myamolane@outlook.com>
+homepage: https://github.com/myamolane/dither-dart
+publish_to: https://pub.dev
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
